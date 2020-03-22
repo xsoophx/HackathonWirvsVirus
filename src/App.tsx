@@ -1,6 +1,6 @@
 import React from 'react';
+import '../src/App.css';
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
@@ -8,15 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Jetzt loslegen
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="/Datenschutz"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Wir nehmen Datenschtz ernst.
         </a>
       </header>
     </div>
