@@ -1,24 +1,31 @@
 import React from 'react';
 import '../src/App.css';
-import logo from './logo.svg';
+import ButtonContainer from './Components/CSSComponents/ButtonContainer';
+import OrangeButton from './Components/CSSComponents/OrangeButton';
+import logo from './logomy.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        </header>
+        <body>
+          <div>
+        <OrangeButton>
           Jetzt loslegen
-        </p>
+        </OrangeButton>
+        </div>
         <a
           className="App-link"
           href="/Datenschutz"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Wir nehmen Datenschtz ernst.
-        </a>
-      </header>
+          <ButtonContainer>Wir nehmen Datenschtz ernst.</ButtonContainer>
+          </a>
+          
+      </body>
     </div>
   );
 }

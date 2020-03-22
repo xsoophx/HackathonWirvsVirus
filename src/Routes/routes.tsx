@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import LandingPageView from '../App';
-import Datenschutz from '../Datenschutz';
+import DataSecurity from '../DataSecurity';
 
 const Routes: React.FunctionComponent = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={LandingPageView} />
-      <Route exact path="/Datenschutz" component={Datenschutz} />
+      <Route exact path="/Datenschutz" component={DataSecurity} />
     </Switch>
   </BrowserRouter>
 );
