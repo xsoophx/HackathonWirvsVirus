@@ -5,7 +5,7 @@ import Routes from './routes/routes';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Routes />, 
+  <Routes />,
   document.getElementById('root')
 );
 
