@@ -18,5 +18,5 @@
 		"noImplicitAny": false,
 		"isolatedModules": true
 	},
-	"include": ["src", "res", "index.tsx"]
+	"include": ["src"]
 }
