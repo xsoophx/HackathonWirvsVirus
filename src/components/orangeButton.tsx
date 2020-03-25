@@ -23,17 +23,5 @@ const OrangeButton = styled.button`
 	cursor: pointer;
 	text-align: center;
 `;
+
 export default OrangeButton;
-/*OrangeButton:hover {
-	border: solid #337fed 1px;
-	background: #1e62d0;
-	background-image: -webkit-linear-gradient(top, #1e62d0, #81c7e1);
-	background-image: -moz-linear-gradient(top, #1e62d0, #81c7e1);
-	background-image: -ms-linear-gradient(top, #1e62d0, #81c7e1);
-	background-image: -o-linear-gradient(top, #1e62d0, #81c7e1);
-	background-image: linear-gradient(to bottom, #1e62d0, #81c7e1);
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	text-decoration: none;
-}*/
