@@ -7,7 +7,7 @@ const Routes: React.FunctionComponent = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={LandingPageView} />
-      <Route exact path="/Datenschutz" component={DataSecurity} />
+      <Route exact path="/datenschutz" component={DataSecurity} />
     </Switch>
   </BrowserRouter>
 );
