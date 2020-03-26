@@ -1,8 +1,8 @@
 import React from 'react';
-import ButtonContainer from '../components/buttonContainer';
-import OrangeButton from '../components/orangeButton';
-import '../css/app.css';
-import Logo from '../res/logos/logomy.png';
+import ButtonContainer from './components/buttonContainer';
+import OrangeButton from './components/orangeButton';
+import './css/app.css';
+import Logo from './res/logos/logomy.png';
 
 const App = (): JSX.Element => (
   <div className="App">
@@ -16,6 +16,7 @@ const App = (): JSX.Element => (
       <a
         className="App-link"
         href="/datenschutz"
+        target="_blank"
         rel="noopener noreferrer"
       >
         <ButtonContainer>Wir nehmen Datenschtz ernst.</ButtonContainer>
